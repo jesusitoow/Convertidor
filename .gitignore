@@ -1,0 +1,53 @@
+# ==========================================
+# Entornos virtuales y dependencias Python
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+.uv/
+
+# ==========================================
+# Cachés de Python, Linters y Tests
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ==========================================
+# Empaquetado y Ejecutables (PyInstaller)
+# ==========================================
+build/
+dist/
+*.spec
+*.exe
+
+# ==========================================
+# Reportes locales y archivos personales
+# ==========================================
+REPORT.md
+*.log
+
+# ==========================================
+# Descargas multimedia y temporales (por si pruebas en raíz)
+# ==========================================
+*.mp3
+*.mp4
+*.m4a
+*.webm
+*.part
+*.ytdl
+*.temp
+
+# ==========================================
+# IDEs y Sistema Operativo
+# ==========================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
